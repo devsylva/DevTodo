@@ -12,4 +12,3 @@ The purpose of the project is to help understand the CRUD operations basics in E
 
 
 # ER - Diagram
-----------------
