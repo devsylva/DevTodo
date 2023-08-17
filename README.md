@@ -1,5 +1,7 @@
 # DevTodo API (Basic Stuff)
-This is a todo list express.js application that i'm personally working on to make me better understand express.js CRUD functionalities. It's basically just for study purpose. 
+This is a todo / Task manager REST API built with with node.js / Express.js. It contain basic Create Read Update Delete (CRUD) operations.
+
+The purpose of the project is to help understand the CRUD operations basics in Express.js using mongodb as the database.
 
 
 # Tech Stack
