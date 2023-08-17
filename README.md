@@ -5,8 +5,6 @@ The purpose of the project is to help understand the CRUD operations basics in E
 
 
 # Tech Stack
------------------
-
 - Lanaguage: Javascript
 - Runtime: Node.js
 - Framework: Express.js
