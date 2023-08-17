@@ -1,0 +1,25 @@
+{
+  "name": "devtodo-api",
+  "version": "1.0.0",
+  "description": "This is a todo list express.js application that i'm personally working on to make me better understand express.js CRUD functionalities. It's basically just for study purpose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsylva/DevTodo-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsylva/DevTodo-API/issues"
+  },
+  "homepage": "https://github.com/devsylva/DevTodo-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "nodemon": "^3.0.1"
+  }
+}
