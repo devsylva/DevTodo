@@ -1,7 +1,7 @@
 const Todo = require("../models/Todo");
 
 exports.getTodoById = (req, res, next, todoId) => {
-    Todo.findById(todoId).exec((err, todo) => {
+    Todo.findById(todoId).then((err, todo) => {
         if (err || !todo) {
             return res.status(400).json({
                 error: "404 todo not found",
@@ -17,7 +17,7 @@ exports.getAllTodos = (req, res) => {
   // simply use .find() method and it will return all the todos
   Todo.find()
     .sort("-createdAt")
-    .exec((err, todos) => {
+    .then((err, todos) => {
       // error checking
       if (err || !todos) {
         return res.status(400).json({

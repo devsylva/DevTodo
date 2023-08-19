@@ -10,7 +10,7 @@ const {
   deleteTodo,
   getAllTodos,
   updateTodo,
-} = require("../controllers/Todo");
+} = require("../controllers/todo")
 
 //params
 // it will fetch the value from the url
